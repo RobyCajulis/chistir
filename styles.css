@@ -143,3 +143,20 @@ h1 {
     transform: scale(1.25);
     transition: all 0.5s ease;
 }
+.learnMoreBtn {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: rgb(254, 235, 187);
+    color: rgb(79, 43, 33);
+    border: 2px solid rgb(79, 43, 33);
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.learnMoreBtn:hover {
+    background-color: rgb(79, 43, 33);
+    color: rgb(254, 235, 187);
+}
